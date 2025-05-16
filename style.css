@@ -31,4 +31,23 @@ th,td {
   body, html {
     margin: 0;
     padding: 0;
-  }
+    /*- - - estilo para o formuário - - -*/
+.form-container {
+  max-width: 600px;
+  margin:30px auto;
+  background-color: #fff5f8;
+  padding:30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0,.1
+  border:1px solid #dcb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+      margin-top: 15px;
+      font-weight: bold;
+      color: brown;
